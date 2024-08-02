@@ -14,6 +14,7 @@
             align-items: center;
             height: 100vh;
             background: url('bg.png') no-repeat center center fixed;
+            background-size: cover; /* Ensure the background covers the entire area */
         }
         .container {
             padding: 30px;
@@ -38,9 +39,7 @@
             cursor: pointer;
             text-decoration: none;
             display: inline-block;
-        
         }
-        
         .link-button:hover, .btn:hover {
             background-color: #fff;
             color: black;
@@ -64,8 +63,6 @@
             border-radius: 5px;
             border: 1px solid #ccc;
             width: 100%;
-        }
-        button {
             background-color: #007bff;
             color: white;
             border: none;
@@ -105,24 +102,12 @@
 
     <script>
         const routines = {
-            Sunday: [
-                "TM (A.S)", "English (S.D)", "Nepali (K.D)"
-            ],
-            Monday: [
-                "Socoa Studies (S.R)", "Account (S.K)", "Hotel Management (A.S)"
-            ],
-            Tuesday: [
-                "TM (A.S)", "English (S.D)", "Nepali (K.D)"
-            ],
-            Wednesday: [
-                ""Socoa Studies (S.R)", "Account (S.K)", "Hotel Management (A.S)"
-            ],
-            Thursday: [
-                "TM (A.S)", "English (S.D)", "Nepali (K.D)"
-            ],
-            Friday: [
-                "Socoa Studies (S.R)", "Account (S.K)", "Hotel Management (A.S)"
-            ],
+            Sunday: ["TM (A.S)", "English (S.D)", "Nepali (K.D)"],
+            Monday: ["Social Studies (S.R)", "Account (S.K)", "Hotel Management (A.S)"],
+            Tuesday: ["TM (A.S)", "English (S.D)", "Nepali (K.D)"],
+            Wednesday: ["Social Studies (S.R)", "Account (S.K)", "Hotel Management (A.S)"],
+            Thursday: ["TM (A.S)", "English (S.D)", "Nepali (K.D)"],
+            Friday: ["Social Studies (S.R)", "Account (S.K)", "Hotel Management (A.S)"],
             Saturday: ["Xutti ho sathy!"]
         };
 
