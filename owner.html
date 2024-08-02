@@ -4,7 +4,107 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 
-.card {
+.card {<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Profile Card</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: url('background.jpg') no-repeat center center fixed; 
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+    }
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      max-width: 350px;
+      margin: 40px auto;
+      border-radius: 10px;
+      background-color: transparent;
+      text-align: center;
+      padding: 20px;
+    }
+    .card img {
+      border-radius: 10px 10px 0 0;
+      width: 100%;
+      height: auto;
+    }
+    .title {
+      color: lightgrey;
+      font-size: 20px;
+      margin: 10px 0;
+    }
+    .subtitle {
+      color: lightgray;
+      font-size: 16px;
+      margin: 10px 0;
+    }
+    p {
+      margin: 10px 0;
+    }
+    button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 10px 20px;
+      color: white;
+      background-color: #007bff;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    .social-icons {
+      margin: 20px 0;
+    }
+    h1 {
+      color: white;
+    }
+    
+    
+    .social-icons a {
+      text-decoration: none;
+      font-size: 24px;
+      color: white;
+      margin: 0 10px;
+      transition: color 0.3s;
+    }
+    .social-icons a:hover {
+      color: #007bff;
+    }
+  </style>
+</head>
+<body>
+
+  <h2 style="text-align:center; color: #333;">Profile Card</h2>
+
+  <div class="card">
+    <img src="developer.jpg" alt="Pragal" style="width:100%; height: auto;">
+    <h1>Jenish Mangmu</h1>
+    <h3 class="subtitle">Helping Partner: Pragal Bhandari</h3>
+    <p class="title">Is Siddharthian</p>
+    <p class="title">Didn't have much time to make it look standard</p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/jenish.mangmu.9"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.youtube.com"><i class="fa fa-youtube"></i></a>
+      <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+      <a href="https://www.facebook.com/pragal.bhandari.0"><i class="fa fa-facebook"></i></a>
+    </div>
+    <button>Contact</button>
+  </div>
+
+</body>
+</html>
+
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
